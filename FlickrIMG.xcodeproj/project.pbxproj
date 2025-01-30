@@ -29,6 +29,23 @@
 		304DBA602D3BF835008732E9 /* FlickrIMGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrIMGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		304DBA9D2D3C0FD7008732E9 /* Exceptions for "FlickrIMGTests" folder in "FlickrIMG" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/FlickrResponse.json,
+			);
+			target = 304DBA452D3BF834008732E9 /* FlickrIMG */;
+		};
+		304DBA9E2D3C0FD7008732E9 /* Exceptions for "FlickrIMGTests" folder in "FlickrIMGTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/FlickrResponse.json,
+			);
+			target = 304DBA552D3BF835008732E9 /* FlickrIMGTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		304DBA482D3BF834008732E9 /* FlickrIMG */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,6 +54,10 @@
 		};
 		304DBA592D3BF835008732E9 /* FlickrIMGTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				304DBA9D2D3C0FD7008732E9 /* Exceptions for "FlickrIMGTests" folder in "FlickrIMG" target */,
+				304DBA9E2D3C0FD7008732E9 /* Exceptions for "FlickrIMGTests" folder in "FlickrIMGTests" target */,
+			);
 			path = FlickrIMGTests;
 			sourceTree = "<group>";
 		};
